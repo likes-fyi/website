@@ -1,5 +1,17 @@
 ---
 ---
-<div class="prose prose-p:text-lg prose-p:leading-8">
+<div class:list={[
+    // enable tailwind typography
+    "prose",
+
+    // make the body text bigger and give it some breathing room
+    "prose-p:text-xl",
+    "prose-p:leading-8",
+
+    // colors
+    "prose-p:text-rose-pine-text",
+    "prose-h1:text-rose-pine-love",
+    "prose-a:text-rose-pine-foam",
+]}>
     <slot />
 </div>
