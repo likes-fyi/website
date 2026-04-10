@@ -1,10 +1,13 @@
 likes.fyi, the website
 ================================================================================
 
-This repo contains the [likes.fyi] website. It's built with [Astro]
+This repo contains the [likes.fyi] website. It's built with [Astro] and
+[Tailwind] and deployed on [GitHub Pages].
 
 [likes.fyi]: https://likes.fyi
 [Astro]: https://astro.build
+[Tailwind]: https://tailwindcss.com/
+[GitHub Pages]: https://pages.github.com
 
 License
 --------------------------------------------------------------------------------
