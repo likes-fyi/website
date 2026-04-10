@@ -1,6 +1,5 @@
 ---
-const { title, frontmatter } = Astro.props
-const page_title = title || frontmatter.title
+const { title } = Astro.props
 
 import "../styles/global.css"
 ---
@@ -12,10 +11,9 @@ import "../styles/global.css"
                <link rel="icon" href="/favicon.ico" />
                <meta name="viewport" content="width=device-width" />
                <meta name="generator" content={Astro.generator} />
-               <title>title: {page_title} :eltit</title>
+               <title>{title}</title>
        </head>
        <body>
-               <h1>title: {page_title} :eltit</h1>
                <slot />
        </body>
 </html>
