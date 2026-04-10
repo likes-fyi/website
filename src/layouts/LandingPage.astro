@@ -1,0 +1,17 @@
+---
+const { frontmatter } = Astro.props;
+const title = frontmatter.title;
+
+import BaseLayout from "./BaseLayout.astro"
+import Prose from "../components/Prose.astro"
+---
+
+<BaseLayout title={title}>
+    <div class="flex flex-col min-h-screen justify-center items-center">
+
+    <Prose>
+        <h1>{title}</h1>
+        <slot />
+    </Prose>
+</div>
+</BaseLayout>

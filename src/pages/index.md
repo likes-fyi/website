@@ -1,6 +1,6 @@
 ---
 title: "likes.fyi"
-layout: "../layouts/BaseLayout.astro"
+layout: "../layouts/LandingPage.astro"
 ---
 
 likes.fyi is a new way of sharing the things you like with the people you
