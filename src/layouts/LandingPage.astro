@@ -4,12 +4,16 @@ const title = frontmatter.title;
 
 import BaseLayout from "./BaseLayout.astro";
 import Prose from "../components/Prose.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <BaseLayout title={title}>
     <div class="mx-8 flex flex-col min-h-screen justify-center items-center">
         <Prose>
             <slot />
+
+            <Footer />
         </Prose>
     </div>
+
 </BaseLayout>
