@@ -2,3 +2,11 @@
 @plugin '@tailwindcss/typography';
 
 @import "./rose-pine-dawn.css";
+
+strong {
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+p {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+}
