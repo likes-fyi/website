@@ -10,3 +10,12 @@ strong {
 p {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 }
+
+a {
+    @apply
+        text-rose-pine-foam
+        no-underline
+        hover:underline
+        underline-offset-2
+        decoration-dashed;
+}
