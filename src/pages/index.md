@@ -3,19 +3,24 @@ title: "likes.fyi"
 layout: "../layouts/LandingPage.astro"
 ---
 
-**likes.fyi** is a new way of sharing the things you like with the people you
-know. We're calling it "social media" and we think it's going to be _big_.
+**likes.fyi** is an experimental toolkit for sharing the things you like with
+the people you know, built on top of the [AT Protocol]. We're calling it "social
+media" and we think it's going to be big.
 
-Take a little bit of [Pinterest] and lotta bit of [Tumblr] and put it all on a
-website that you control. Built on top of the [AT Protocol] so you always have
-full ownership of your data. Fully open source so you can see how it works and
-modify it to fit your needs.
+[AT Protocol]: https://atproto.com
+
+In its current form the goal is to make it easy to create a website to share
+links that you like. Think of it like a minimalist remix of [Pinterest] and
+[Tumblr]. In the future I'll add more integrations and social features. You can
+read more in [_introducing likes.fyi_].
 
 [Pinterest]: https://pinterest.com
 [Tumblr]: https://tumblr.com
-[AT Protocol]: https://atproto.com
+[_introducing likes.fyi_]: https://devlog.likes.fyi/3mjutjhvucc2o
 
-There's not much to see here right now. Refresh this page at a comforting
-interval or [find us on Bluesky] to get updates whenever updates exist.
+There's not much else to see here right now. For more find us [on Bluesky] for
+updates, [on Leaflet] for devlog-style posts, and/or refresh this page at a
+comforting interval.
 
-[find us on Bluesky]: https://bsky.app/profile/likes.fyi
+[on Bluesky]: https://bsky.app/profile/likes.fyi
+[on Leaflet]: https://devlog.likes.fyi
