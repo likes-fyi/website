@@ -9,7 +9,7 @@ permissions:
   pull-requests: read
 
 jobs:
-  tangle:
+  mirror:
     runs-on: ubuntu-latest
     steps:
       - uses: gwennlbh/to-tangled@v0.5
